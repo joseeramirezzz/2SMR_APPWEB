@@ -4,3 +4,5 @@ X = N*12
 centimetros = X*2.54
 print (centimetros)
 print (N,"pies son",centimetros,"cm")
+
+prueba
