@@ -13,4 +13,14 @@ body{
 .cabecera{
     background-color: black;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera__nav__list{
+    display: flex;
+}
+
+.cabecera__logo{
+    width: 30%;
 }
