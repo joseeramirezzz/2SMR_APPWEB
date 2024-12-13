@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/Style.css">
 </head>
 <body>
@@ -18,38 +21,40 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1> Próximos viajes con SiTour</h1>
-        <section>
-            <article>
-                <img src="" alt="">
-                <div>
-                    <span>Irlanda</span>
-                    <a href="">Ver destino</a>
+    <main class="principal">
+        <h1 class="principal__titulo"> Próximos viajes con SiTour</h1>
+        <section class="principal__viajes">
+            <article class="principal__viajes__art">
+                <img class="principal__viajes__art__image" src="/Img/destino1.jpg" alt="">
+                <div class = "principal__viajes__art__contenedor">
+                    <span class=" principal__viajes__art__contenedor__texto">Irlanda</span>
+                    <a class=" principal__viajes__art__contenedor__enlace" href="">Ver destino</a>
                 </div>
             </article>
-            <article>
-                <img src="" alt="">
-                <div>
-                    <span>Punta Cana</span>
-                    <a href="">Ver destino</a>
+            <article class="principal__viajes__art">
+                <img class="principal__viajes__art__image" src="/Img/destino2.jpg" alt="">
+                <div class = "principal__viajes__art__contenedor">
+                    <span class=" principal__viajes__art__contenedor__texto">Punta Cana</span>
+                    <a class=" principal__viajes__art__contenedor__enlace" href="">Ver destino</a>
                 </div>
             </article>
-            <article>
-                <img src="" alt="">
-                <div>
-                    <span>Reino Unido</span>
-                    <a href="">Ver destino</a>
+            <article class="principal__viajes__art">
+                <img class="principal__viajes__art__image" src="/Img/destino3.jpg" alt="">
+                <div class = "principal__viajes__art__contenedor">
+                    <span class=" principal__viajes__art__contenedor__texto">Reino Unido</span>
+                    <a class=" principal__viajes__art__contenedor__enlace" href="">Ver destino</a>
                 </div>
             </article>
         </section>
-        <section>
-            <form action="">
-                <fieldset>
-                    <legend>Contacta con nosotros</legend>
-                    <input type="email" placeholder="Correo Electrónico">
-                    <input type="submit" value="Quiero recibir más Información">
 
+        <section class="principal__contacto">
+            <form class="principal__contacto__form" action="">
+                <fieldset class="principal__contacto__form__contenedor">
+                    <legend class="principal__contacto__form__contenedor__titulo">Contacta con nosotros</legend>
+                    <div class="principal__contacto__form__contenedor__div">
+                        <input class="principal__contacto__form__contenedor__div__email" type="email" placeholder="Correo Electrónico">
+                        <input class="principal__contacto__form__contenedor__div__boton" type="submit" value="Quiero recibir más Información">
+                    </div>
                 </fieldset>
 
             </form>
