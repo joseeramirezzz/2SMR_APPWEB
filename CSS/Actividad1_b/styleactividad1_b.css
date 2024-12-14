@@ -1,0 +1,46 @@
+.cabecera{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.cabecera__nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+}
+
+.cabecera__nav__list{ /* poniendole flex puedes jugar con su posicionamiento y más*/
+    display: flex;
+    list-style: none;
+}
+
+.cabecera__logo{  /* ajusta el tamaño de la imagen*/
+    width: 30%;
+
+}
+
+
+.cabecera__nav__list__enlace{  /* Le pone margen a la lista y cambia color*/
+
+    margin-right: 1rem ;
+    color:aliceblue;
+    font-size: 1.3rem;
+
+
+}
+
+.cabecera__nav__list__enlace:hover{ /* esto es una semiclase, HOVER se crea para darle formato cuando ponemos el raton encima*/
+
+    color: chartreuse;
+}
+
+
+
+ a{  /* Quita los subrayados de los enlaces (etiqueta a es la de los enlaces)*/
+     text-decoration: none;
+}

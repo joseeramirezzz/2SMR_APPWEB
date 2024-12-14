@@ -1,0 +1,39 @@
+/* -------- Header---------- */
+
+.cabecera{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+
+}
+
+.cabecera__nav__list{ /* poniendole flex puedes jugar con su posicionamiento y más*/
+    display: flex;
+}
+
+.figure__img{  
+
+        width: 100%; 
+  
+}
+
+.cabecera__nav__list__enlace{  /* Le pone margen a la lista y cambia color*/
+
+    margin-right: 1rem ;
+    color:aliceblue;
+    font-size: 1.3rem;
+
+}
+
+.cabecera__nav__list__enlace:hover{ /* esto es una semiclase, HOVER se crea para darle formato cuando ponemos el raton encima*/
+
+    color: chartreuse;
+}
+
+
+
+ a{  /* Quita los subrayados de los enlaces (etiqueta a es la de los enlaces)*/
+     text-decoration: none;
+}
