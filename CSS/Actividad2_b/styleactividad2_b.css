@@ -184,10 +184,12 @@ body{
 .footer__span__banner{
     display: flex;
     width: 81%;
-    background-image: url(/Img/playa.jpg);
+    background-image: url(/Img/logo.jpg);
     background-size: 50%;
     background-repeat: repeat; 
     justify-content: center;
+    height: 30rem;
+    padding-top: 2rem;
     
 }
 
@@ -199,25 +201,30 @@ body{
     flex-direction: column;
     text-align: center;
 
+
 }
 
 .footer__span__aside__titulo{
     padding-bottom: 1.5rem;
+    font-size: 2rem;
+
 
 }
 
 .footer__span__aside__enlace{
     margin-bottom: 3rem;
     text-align: center;
+    font-size: 1.5rem;
     
 }
+
 a{  /* Quita los subrayados de los enlaces (etiqueta a es la de los enlaces)*/
      text-decoration: none;
      color: black;
 }
 li {
     list-style: none;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -227,5 +234,23 @@ li {
     justify-content: space-around;
     background-color: grey;
     margin: 0;
-    padding: 1.5rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    
+}
+
+.footer__pie__enlace{
+    display: flex;
+    margin-bottom: 0;
+    padding: 1rem;
+}
+
+.footer__pie__enlace:hover{
+    font-weight: bold;
+
+}
+
+
+.footer__span__aside__enlace:hover{
+    font-weight: bold;
 }
