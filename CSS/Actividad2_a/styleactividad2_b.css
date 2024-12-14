@@ -1,0 +1,211 @@
+/* ------------ General----------- */
+
+body{
+    margin: 0;
+}
+
+
+
+
+
+/* -------- Header---------- */
+
+.cabecera{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera__nav__list{ /* poniendole flex puedes jugar con su posicionamiento y más*/
+    display: flex;
+}
+
+.cabecera__logo{  /* ajusta el tamaño de la imagen*/
+    width: 30%;
+}
+
+.cabecera__nav__list__enlace{  /* Le pone margen a la lista y cambia color*/
+
+    margin-right: 1rem ;
+    color:aliceblue;
+    font-size: 1.3rem;
+
+}
+
+.cabecera__nav__list__enlace:hover{ /* esto es una semiclase, HOVER se crea para darle formato cuando ponemos el raton encima*/
+
+    color: chartreuse;
+}
+
+
+
+ 
+
+/* --------- Seccion principal ---------------*/
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.principal__titulo{
+    width: 100%;
+    text-align: center;
+    margin-bottom:3rem ;
+}
+
+.principal__viajes{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly
+
+}
+
+.principal__viajes__art{
+    width: 30%; 
+
+}
+
+.principal__viajes__art__image{
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
+.principal__viajes__art__contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal__viajes__art__contenedor__texto{
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 50%;
+}
+
+.principal__viajes__art__contenedor__enlace{
+    background-color: gray;
+    border-radius: 0.35rem;
+    padding: 0.5rem;
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    text-align: center;
+
+
+}
+
+.principal__viajes__art__contenedor__enlace:hover{
+    background-color: black;
+}
+
+.principal__contacto{
+    width: 100%;
+    background-color: black;
+    margin-top: 5rem;
+}
+
+.principal__contacto__form__contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin: 0;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.principal__contacto__form__contenedor__titulo{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+
+}
+
+.principal__contacto__form__contenedor__div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__contacto__form__contenedor__div__email{
+    width: 50%;
+    margin-bottom: 0.5rem;
+    padding: 0.35rem;
+    border: 0;
+    font-size: 0.9rem;
+}
+
+.principal__contacto__form__contenedor__div__boton{
+    width: 50%;
+    padding: 0.35rem;
+    border: 0;
+    text-align: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 0.35rem;
+    background-color: gray;
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+
+.principal__contacto__form__contenedor__div__boton:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+
+/* ----- footer --------- */
+
+
+
+.footer{
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column
+}
+
+
+a{  /* Quita los subrayados de los enlaces (etiqueta a es la de los enlaces)*/
+     text-decoration: none;
+     color: black;
+}
+li {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.footer__pie{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    margin: 0;
+    font-size: 1.3rem;
+    
+}
+
+.footer__pie__enlace{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.footer__pie__enlace:hover{
+    font-weight: bold;
+
+}
+
+
+.footer__span__aside__enlace:hover{
+    font-weight: bold;
+}
