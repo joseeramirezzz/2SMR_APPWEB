@@ -27,6 +27,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     const num_ele_usr = parseInt(prompt("Introduce cuantos términos de la sucesión de fibonacci quieres"));
 
-    alert ("Los primeros" + num_ele_usr + " términos de la secuencia Fibonacci son:" + sucesionFibonacci(num_ele_usr));
+    alert ("Los primeros" + num_ele_usr + " términos de la secuencia Fibonacci son: " + sucesionFibonacci(num_ele_usr));
 
 }) ;
