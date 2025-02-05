@@ -1,4 +1,4 @@
-.cuadrado{
+.alineacion__main__cuadrado{
     background-color: aqua;
     width: 20rem;
     height: 20rem;
@@ -7,7 +7,7 @@
     
 }
 
-.alineacion{
+.alineacion__main{
     display: flex;
     flex-direction: column;
     align-items: center;

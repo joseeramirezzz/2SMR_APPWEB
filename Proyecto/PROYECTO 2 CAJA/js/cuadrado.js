@@ -1,7 +1,7 @@
 
 // seleccion de boton
 const btn = document.querySelector(".boton");
-const caja = document.querySelector(".cuadrado");
+const caja = document.querySelector(".alineacion__main__cuadrado");
 
 
 
@@ -9,7 +9,7 @@ const caja = document.querySelector(".cuadrado");
 
 // Llamada al evento ( cuando haga click en el btn, haz esta función)
 
-btn.addEventListener("Click", function(){
+btn.addEventListener("click", function(){
 
 
     if(caja.style.display != "none") {
@@ -26,5 +26,5 @@ btn.addEventListener("Click", function(){
     }  
 
 
-})
+});
 
