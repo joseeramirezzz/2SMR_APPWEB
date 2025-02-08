@@ -1,0 +1,173 @@
+
+/* SIMPLE */
+
+
+.general{
+    background-color: red;
+    font-family: "Montserrat", serif;
+    margin: 0rem;
+}
+
+.general__header{
+    background-color: #FEFCFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1.5rem;
+    
+}
+
+
+.general__header__titulo{
+    color: #07BEB8;
+    font-size: 1rem;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.general__header__nav__link1{
+    margin-right: 2rem;
+
+}
+
+.general__header__nav__link2{
+    margin-right: 2rem;
+    
+}
+
+.general__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem;
+}
+
+.general__main__section1{
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-size: 2rem;
+   
+}
+
+.general__main__section__background{
+    margin-right: 0.50rem;
+    font: bold;
+    color: antiquewhite;
+    font-weight: bold;
+    margin: 0rem;
+}
+
+.general__main__section__color{
+    font-weight: bold;
+    color: #07BEB8;
+    margin: 0rem;
+    padding-left: 0.5rem;
+}
+
+.general__main__section2{
+    margin: 2rem;
+}
+
+.general__main__section2__boton{
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: antiquewhite;
+    background-color: red;
+
+
+}
+
+/* HEX */
+
+.HEX__general{
+    background-color: #3DCCC7;
+    font-family: "Montserrat", serif;
+    margin: 0rem;
+}
+
+.HEX__general__header{
+    background-color: #FEFCFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1.5rem;
+    
+}
+
+
+.HEX__general__header__titulo{
+    color: #07BEB8;
+    font-size: 1rem;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.HEX__general__header__nav__link1{
+    margin-right: 2rem;
+
+}
+
+.HEX__general__header__nav__link2{
+    margin-right: 2rem;
+    
+}
+
+.HEX__general__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem;
+}
+
+.HEX__general__main__section1{
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-size: 2rem;
+   
+}
+
+.HEX__general__main__section__background{
+    margin-right: 0.50rem;
+    font: bold;
+    color: antiquewhite;
+    font-weight: bold;
+    margin: 0rem;
+}
+
+.HEX__general__main__section__color{
+    font-weight: bold;
+    color: antiquewhite;
+    margin: 0rem;
+    padding-left: 0.5rem;
+}
+
+.HEX__general__main__section2{
+    margin: 2rem;
+}
+
+.HEX__general__main__section2__boton{
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: antiquewhite;
+    background-color: #3DCCC7;
+
+
+}
