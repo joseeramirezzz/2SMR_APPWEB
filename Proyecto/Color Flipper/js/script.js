@@ -12,7 +12,7 @@ const btn = document.querySelector(".general__main__section2__boton") // Selecci
 
 const body = document.querySelector(".general") // Seleccionamos el body para posteriormente cambiarle el backgroundcolor
 
-const texto = document.querySelector(".general__main__section__color") // Seleccionamos el texto para posteriormente cambiarle el contenido del propio
+const texto = document.querySelector(".general__main__section__color")      
 
 btn.addEventListener("click", function(){  // Agregamos un "eventlistener" para escuchar el click del botón, cuando haces click se ejecuta la función
 

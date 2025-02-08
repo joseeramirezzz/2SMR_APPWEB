@@ -13,21 +13,21 @@ function colorHEX () { // Funcion que genera color hexadecimal aleatorio
     let color = '#'; // variable color con el símbolo # que es necesario para definir colores en formato hexadecimal
 
     for (let i = 0; i < 6; i++) {  // Bucle que se repite 6 veces (porque un color hexadecimal tiene 6 dígitos)
-        const aleatorio = clr[Math.floor(Math.random() * clr.length)]; 
-        color += aleatorio;
+        const aleatorio = clr[Math.floor(Math.random() * clr.length)];  // Generamos un valor hexadecimal 
+        color += aleatorio; // Añadimos el valor hexadecimal a la cadena color
         
     }
 
-    texto.textContent = color;
+    texto.textContent = color; // cambia el contenido de texto y pone el valor hexadecimal creado
 
-    btn.style.backgroundColor = color;
+    btn.style.backgroundColor = color; // Cambia el color de fondo del botón al color hexadecimal creado
 
-    body.style.backgroundColor = color;
+    body.style.backgroundColor = color; // Cambia el color del body al color hexadecimal creado
 
 }
 
 
-btn.addEventListener("click", colorHEX);
+btn.addEventListener("click", colorHEX); // Añadimos un event listener al botón para que ejecute la función`colorHEX cuando se haga click
 
 
    
