@@ -1,0 +1,58 @@
+.general{
+    background-color: rgb(211, 211, 211);
+
+}
+
+.general__main{
+    margin: 1rem;
+    background-color: rgb(238, 238, 210);
+}
+
+.general__main__titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+
+    
+}
+
+.general__main__form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3.5rem;
+}
+
+.general__main__form__cuadrotext{
+    border-radius: 0.45rem;
+    width: 15rem;
+    padding: 0.5rem;
+    margin-right: 2.5rem;
+}
+
+.general__main__form__boton{
+    border-radius: 0.45rem;
+    width: 10rem;
+    background-color: rgb(24, 73, 24);
+    color: antiquewhite;
+}
+
+
+/* clases js*/
+
+
+.general__main__lista{
+    display: flex;
+
+}
+
+
+.botonX{
+    display: flex;
+    background-color: red;
+
+}
+
+.tareaX{
+    display: flex;
+
+}
