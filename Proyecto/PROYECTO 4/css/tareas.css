@@ -69,11 +69,11 @@
 }
 
 
-
 .cajaX{
+
     display: flex;
     width: 30rem;
-    width: 30rem;
+    
 
 }
 
@@ -81,6 +81,3 @@
     width: 20rem;
 }
 
-.textoX{
-    width: 20rem;
-}

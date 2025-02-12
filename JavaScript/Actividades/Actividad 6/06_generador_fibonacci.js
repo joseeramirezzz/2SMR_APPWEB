@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+
 
     function sucesionFibonacci(num_ele){
 
@@ -29,4 +29,3 @@ document.addEventListener("DOMContentLoaded", function(){
 
     alert ("Los primeros" + num_ele_usr + " términos de la secuencia Fibonacci son: " + sucesionFibonacci(num_ele_usr));
 
-}) ;
