@@ -1,10 +1,10 @@
 let tarea = document.querySelector(".general__main__form__cuadrotext");
 const btn = document.querySelector(".general__main__form__boton");
 let lista = document.querySelector(".general__main__lista");
-const form = document.querySelector("general__main__form");
+const form = document.querySelector(".general__main__form");
+const btn_aleatorio = document.querySelector(".general__main__boton");
 
-
-
+ 
 function addtask(){
     
  
@@ -40,10 +40,27 @@ function addtask(){
             caja_lista.remove()
         });
 
-        
+
+
     }
 
 
 }
 
+function aleatorio(){
+
+    let array_lista = document.querySelectorAll(".cajaX");
+
+
+    if (array_lista.length > 0 && array_lista.classList != ("resaltar")) {
+        let aleat = Math.floor(Math.random() * array_lista.length);
+        let jojo = array_lista[aleat];
+        jojo.classList.add("resaltar");
+    }else{
+        array_lista.classList.remove
+    }
+
+}
 btn.addEventListener("click",addtask);
+
+btn_aleatorio.addEventListener("click",aleatorio);
