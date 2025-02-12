@@ -52,7 +52,7 @@ function aleatorio(){
     let array_lista = document.querySelectorAll(".cajaX");
 
 
-    if (array_lista.length > 0 && array_lista.classList != ("resaltar")) {
+    if (array_lista.length > 0 ) {
         let aleat = Math.floor(Math.random() * array_lista.length);
         let jojo = array_lista[aleat];
         jojo.classList.add("resaltar");
