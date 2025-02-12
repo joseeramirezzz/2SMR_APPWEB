@@ -1,20 +1,26 @@
 let tarea = document.querySelector(".general__main__form__cuadrotext");
 const btn = document.querySelector(".general__main__form__boton");
 let lista = document.querySelector(".general__main__lista");
+const form = document.querySelector("general__main__form");
 
 
-function addtask(event){
+
+function addtask(){
     
-    event.preventDefault();
+ 
     const monkiki = tarea.value;
 
     if (monkiki != "") {
 
-        let nueva_tarea = document.createElement("li");
+        let caja_lista = document.createElement("li");
+
+        let nueva_tarea = document.createElement("p");
 
         nueva_tarea.textContent = monkiki
 
-        lista.appendChild(nueva_tarea);
+        lista.appendChild(caja_lista);
+
+        caja_lista.appendChild(nueva_tarea);
 
         tarea.value = "";
 
@@ -22,15 +28,16 @@ function addtask(event){
 
         boton.classList.add("botonX")
 
-        nueva_tarea.classList.add("tareaX")
+        nueva_tarea.classList.add("textoX")
+
+        caja_lista.classList.add("cajaX")
 
         boton.textContent = "X";
 
-        nueva_tarea.appendChild(boton);
+        caja_lista.appendChild(boton);
 
         boton.addEventListener("click", function(){
-            nueva_tarea.remove()
-
+            caja_lista.remove()
         });
 
         
