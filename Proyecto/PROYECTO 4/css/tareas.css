@@ -1,11 +1,22 @@
+:root{
+    --color:red;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 .general{
     background-color: rgb(211, 211, 211);
 
 }
 
 .general__main{
+    display: flex;
     margin: 1rem;
     background-color: rgb(238, 238, 210);
+    flex-direction: column
+   
 }
 
 .general__main__titulo{
@@ -50,16 +61,25 @@
     
 .botonX{
     margin-left: 5rem;
+    margin-left: 5rem;
     background-color: red;
+    margin-bottom: 1rem;
     margin-bottom: 1rem;
 
 }
 
 
 .cajaX{
+
+.cajaX{
     display: flex;
     width: 30rem;
+    width: 30rem;
 
+}
+
+.textoX{
+    width: 20rem;
 }
 
 .textoX{
