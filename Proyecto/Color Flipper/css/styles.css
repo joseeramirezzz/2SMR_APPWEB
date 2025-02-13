@@ -1,10 +1,22 @@
+/*Variables globales*/
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+   --tipodefuente: "Montserrat", serif;
+}
+
 
 /* SIMPLE */
 
-
 .general{
     background-color: red;
-    font-family: "Montserrat", serif;
+    font-family: var(--tipodefuente);
     margin: 0rem;
 }
 
@@ -90,7 +102,7 @@ a{
 
 .HEX__general{
     background-color: #3DCCC7;
-    font-family: "Montserrat", serif;
+    font-family: var(--tipodefuente);
     margin: 0rem;
 }
 

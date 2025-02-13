@@ -9,22 +9,25 @@ const caja = document.querySelector(".alineacion__main__cuadrado");
 
 // Llamada al evento ( cuando haga click en el btn, haz esta función)
 
-btn.addEventListener("click", function(){
+btn.addEventListener("click", function() {  
+    // Cuando se haga click en btn se ejecutará esta función
 
+    if (caja.style.display != "none") {  
+        // Si la caja no está oculta 
 
-    if(caja.style.display != "none") {
+        caja.style.display = "none";  
+        // Oculta la caja 
 
-        caja.style.display = "none";
+        btn.textContent = "Mostrar caja";  
+        // Cambia el texto del botón a Mostrar caja
+    } else {  
+        // Si la caja esta oculta
 
-        btn.textContent = "Mostrar caja";
+        caja.style.display = "inline-block";  
+        // Muestra la caja 
 
-    } else {
-
-        caja.style.display = "inline-block";
-
-        btn.textContent = "Ocultar caja";
+        btn.textContent = "Ocultar caja";  
+        // Cambia el texto del botón a Ocultar caja
     }  
-
-
 });
 
