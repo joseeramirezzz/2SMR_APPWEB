@@ -58,7 +58,7 @@ function aleatorio(){
         
     });
 
-    let num_aleatorio = Math.floor(Math.random ()* array_lista.length)
+    let num_aleatorio = Math.floor(Math.random () * array_lista.length)
 
     let tarea_aleatoria = array_lista[num_aleatorio]
     console.log(tarea_aleatoria)
