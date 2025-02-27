@@ -1,0 +1,110 @@
+.general{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.general__main{
+    background-color: rgb(233, 233, 196);
+    width: 50%;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(../imgs/logo\ JR\ PHP.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.general__main__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.general__main__section__titulo{
+    font-size: 2rem;
+    display: flex;
+    padding: 0rem;
+    font-size: 3rem;
+    
+}
+
+.general__main__section__form{
+
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.general__main__section__form__input__correo{
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    color: grey;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.general__main__section__form__input__contraseña{
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    color: grey;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+
+.general__main__section__form__boton{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 0.5rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+
+.general__main__section__form__input__nombre{
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    color: grey;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+
+.general__main__section__form__input__apellido{
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    color: grey;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+.general__footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: grey;
+}
